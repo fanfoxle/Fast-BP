@@ -5,7 +5,6 @@ end
 
 local_vmi = zeros(pn,4,5);
 q = 1;
-tic
 for i = 1:pn
     if pr(capsort(i))>1 && length(find(vt(:,:,:,3)>0))<100
         vt_size = zeros(1,4);
@@ -78,4 +77,3 @@ for i = 1:pn
         end
     end    
 end
-toc
